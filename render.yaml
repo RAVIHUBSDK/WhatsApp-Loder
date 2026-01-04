@@ -1,0 +1,6 @@
+services:
+- type: web
+  name: whatsapp-full-panel
+  env: node
+  buildCommand: npm install
+  startCommand: npm start
